@@ -22,7 +22,7 @@ Open PowerShell in your project folder and run:
 
 ```powershell
 python -m venv venv
-
+```
 
 ### 2. Activate the environment 
 
