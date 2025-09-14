@@ -26,24 +26,31 @@ python -m venv venv
 
 ### 2. Activate the environment 
 
+```powershell
 .\venv\Scripts\Activate.ps1
+```
 
 If you get a permission error, run:
+```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 then activate again
 
 ### 3. Install dependencies
-
+```powershell
 pip install wikipedia colorama SpeechRecognition pyttsx3 pypiwin32 rich python-docx PyMuPDF gtts playsound
+```
 
 If you're using Python 3.13, install PyAudio manually:
-
+```powershell
 pip install "C:/Users/monika Bhati/Downloads/PyAudio-0.2.14-cp313-cp313-win_amd64.whl"
+```
 
 ### Running the Assistant
 Make sure you're in the root folder and your virtual environment is active. Then run:
-
+```powershell
 python .\Voice-Assistant-master\Project_Basic_struct\VoiceAssistant_main.py
+```
 
 ### How to Use
 
